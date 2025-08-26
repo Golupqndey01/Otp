@@ -5,7 +5,7 @@ BOT_TOKEN = "7649519680:AAFO7LyIda7qQRmIwgI9WXSmRlWesqI2SK0"
 ADMIN_ID = 7776174537  # 👈 yahan apna Telegram ID daalna                                                                                                 ADMIN_USERNAME = "SIDPANDEY02"  # 👈 admin ka username (@ ke bina)
 
 # === Start Command ===                                                                                                                                   async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    keyboard = 
+    keyboard = [    
         [InlineKeyboardButton("🇮🇳 India", callback_data="country:india")],
         [InlineKeyboardButton("🇺🇸 USA", callback_data="country:usa")],
         [InlineKeyboardButton("📞 Contact Admin", callback_data="contact_admin")]
